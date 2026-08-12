@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<unistd.h>
+#include<sys/typesh>
+#include<sys/wait.h>
+
+int main() {
+    int pid, num;
+    printf("enter num\n");
+    scanf("%d",&num);
+pid = fork(); //creates child process
